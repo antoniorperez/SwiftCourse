@@ -6,22 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		8E8A20A61C3F0ADB00D5E2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8A20A51C3F0ADB00D5E2DA /* AppDelegate.swift */; };
-		8E8A20A81C3F0ADB00D5E2DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8A20A71C3F0ADB00D5E2DA /* ViewController.swift */; };
-		8E8A20AB1C3F0ADC00D5E2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8A20A91C3F0ADC00D5E2DA /* Main.storyboard */; };
-		8E8A20AD1C3F0ADC00D5E2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8A20AC1C3F0ADC00D5E2DA /* Assets.xcassets */; };
-		8E8A20B01C3F0ADC00D5E2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8A20AE1C3F0ADC00D5E2DA /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		8E8A20A21C3F0ADB00D5E2DA /* JuegoDeMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoDeMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8A20A51C3F0ADB00D5E2DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E8A20A71C3F0ADB00D5E2DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E8A20AA1C3F0ADC00D5E2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E8A20AC1C3F0ADC00D5E2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E8A20AF1C3F0ADC00D5E2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E8A20B11C3F0ADC00D5E2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8A20B71C3F0B0A00D5E2DA /* JuegoDeMemoriaPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JuegoDeMemoriaPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +41,7 @@
 		8E8A20A41C3F0ADB00D5E2DA /* JuegoDeMemoria */ = {
 			isa = PBXGroup;
 			children = (
-				8E8A20A51C3F0ADB00D5E2DA /* AppDelegate.swift */,
-				8E8A20A71C3F0ADB00D5E2DA /* ViewController.swift */,
-				8E8A20A91C3F0ADC00D5E2DA /* Main.storyboard */,
-				8E8A20AC1C3F0ADC00D5E2DA /* Assets.xcassets */,
-				8E8A20AE1C3F0ADC00D5E2DA /* LaunchScreen.storyboard */,
-				8E8A20B11C3F0ADC00D5E2DA /* Info.plist */,
+				8E8A20B71C3F0B0A00D5E2DA /* JuegoDeMemoriaPlayground.playground */,
 			);
 			path = JuegoDeMemoria;
 			sourceTree = "<group>";
@@ -122,9 +104,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8A20B01C3F0ADC00D5E2DA /* LaunchScreen.storyboard in Resources */,
-				8E8A20AD1C3F0ADC00D5E2DA /* Assets.xcassets in Resources */,
-				8E8A20AB1C3F0ADC00D5E2DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +114,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8A20A81C3F0ADB00D5E2DA /* ViewController.swift in Sources */,
-				8E8A20A61C3F0ADB00D5E2DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8E8A20A91C3F0ADC00D5E2DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8A20AA1C3F0ADC00D5E2DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8E8A20AE1C3F0ADC00D5E2DA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8A20AF1C3F0ADC00D5E2DA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8E8A20B21C3F0ADC00D5E2DA /* Debug */ = {
