@@ -5,7 +5,6 @@ import UIKit
 
 //Creamos el rango de 0 a 100
 var rango = 1...100
-print(rango)
 
 
 //Iteramos por el rango
@@ -15,13 +14,16 @@ for num in rango{
     if num % 5 == 0{
         print("\(num) Bingo!!!")
     //Si es par
-    }else if num % 2 == 0 {
+    }
+    if num % 2 == 0 {
         print("\(num) par!!!")
     //Si es impar
-    }else if num % 2 != 0{
+    }
+    if num % 2 != 0{
         print("\(num) impar!!!")
     //Si está entre 30 y 40 (ambos inclusive)
-    }else if num >= 30 && num <= 40{
+    }
+    if num >= 30 && num <= 40{
         print("\(num) Viva Swift!!!")
     }
     
