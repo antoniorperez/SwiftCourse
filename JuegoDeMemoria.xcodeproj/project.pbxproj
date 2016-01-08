@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		8E8A20A21C3F0ADB00D5E2DA /* JuegoDeMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoDeMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8A20B71C3F0B0A00D5E2DA /* JuegoDeMemoriaPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JuegoDeMemoriaPlayground.playground; sourceTree = "<group>"; };
+		8ECB401C1C4028650088027F /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Velocimetro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				8E8A20B71C3F0B0A00D5E2DA /* JuegoDeMemoriaPlayground.playground */,
+				8ECB401C1C4028650088027F /* Velocimetro.playground */,
 			);
 			path = JuegoDeMemoria;
 			sourceTree = "<group>";
@@ -244,6 +246,7 @@
 				8E8A20B61C3F0ADC00D5E2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
