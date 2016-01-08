@@ -21,18 +21,24 @@ class Auto{
     }
     
     func cambioDeVelocidad()->(Int, String){
+        var velocidadStr : String = ""
+        
         if self.velocidad == .Apagado {
             self.velocidad = .VelocidadBaja
+            velocidadStr = "Velocidad baja"
             
         }else if self.velocidad == .VelocidadBaja{
             self.velocidad = .VelocidadMedia
+            velocidadStr = "Velocidad media"
             
         }else if self.velocidad == .VelocidadMedia{
             self.velocidad = .VelocidadAlta
+            velocidadStr = "Velocidad alta"
         }else if self.velocidad == .VelocidadAlta{
             self.velocidad = .VelocidadMedia
+            velocidadStr = "Velocidad media"
         }
-        return (self.velocidad.rawValue, "\(self.velocidad)")
+        return (self.velocidad.rawValue, "\(velocidadStr)")
         
     }
 }
@@ -43,11 +49,11 @@ class Auto{
 var auto = Auto()
 
 //Imprimimos el valor inicial
-print("\(auto.velocidad.rawValue), \(auto.velocidad)")
+print("1. \(auto.velocidad.rawValue), \(auto.velocidad)")
 
 //Iteramos cambiando la velocidad una vez por iteracion hasta 20 repeticiones
-for i in 1...20{
+for i in 2...20{
     var resultado = auto.cambioDeVelocidad()
-    print("\(resultado.0), \(resultado.1)")
+    print("\(i). \(resultado)")
 }
 
